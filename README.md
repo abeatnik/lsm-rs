@@ -1,8 +1,10 @@
 # lsm-rs
 
 A small LSM-tree-based NoSQL engine written in Rust.
+LSM trees are the storage engine design behind systems like RocksDB, LevelDB, and Apache Cassandra.
 
-This is an experimental and educational project, aiming to implement the core ideas behind log-structured merge-trees (LSM trees), including memtables, compaction, and eventually SSTables and WALs.
+This is a toy project, aiming to implement the core ideas behind log-structured merge-trees (LSM trees), including memtables, compaction, and eventually SSTables and WALs.
+It is loosely modeled after [mini-lsm](https://github.com/skyzh/mini-lsm/blob/main/README.md).
 
 Right now, it supports in-memory data structures and the skeleton for compaction logic.
 
