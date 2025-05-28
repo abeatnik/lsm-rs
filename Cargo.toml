@@ -1,0 +1,12 @@
+[package]
+name = "lsm-tree"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam-skiplist = "0.1"
+bytes = "1"
+chrono = "0.4"
+crc32fast = "=1.4.2"
+bincode = "2.0.1"
+anyhow = "1.0.98"
